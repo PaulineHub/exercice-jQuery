@@ -1,0 +1,81 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+/*
+=============== 
+Variables
+===============
+*/
+/*
+=============== 
+Global Styles
+===============
+*/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.background {
+  font-family: "Roboto", sans-serif;
+  background: #e5ccc9;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.2rem;
+  font-weight: bold; }
+  .background--image {
+    background: url("../image.jpg") center no-repeat;
+    background-size: 100%; }
+
+h1 {
+  font-size: 3rem;
+  color: black; }
+
+.case {
+  padding: 1rem 0;
+  margin: 25px auto;
+  border: solid 2px black;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 50vw;
+  display: none;
+  cursor: pointer; }
+  .case--titre {
+    background-color: white;
+    width: 80vw;
+    margin: 50px auto;
+    display: block; }
+  .case--couleur1 {
+    background-color: #d55e62; }
+  .case--couleur2 {
+    background-color: #cb2832; }
+  .case--couleur3 {
+    background-color: #d18a8b; }
+
+button {
+  padding: 0.5rem 0;
+  margin: 20px auto 0 auto;
+  background-color: black;
+  border: solid 2px black;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: white;
+  width: 10vw;
+  cursor: pointer; }
+
+.image {
+  background-size: cover; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */
